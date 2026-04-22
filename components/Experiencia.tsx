@@ -28,7 +28,7 @@ const fotos = [
 
 export default function Experiencia() {
   return (
-    <section className="relative py-24 px-6 bg-gradient-to-b from-azul-meio to-azul-profundo">
+    <section id="experiencia" className="relative py-24 px-6 bg-gradient-to-b from-azul-meio to-azul-profundo scroll-mt-16">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

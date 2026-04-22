@@ -6,6 +6,7 @@ import SchemaOrg from '@/components/SchemaOrg'
 import Analytics from '@/components/Analytics'
 import ScrollTracker from '@/components/ScrollTracker'
 import OceanBackground from '@/components/OceanBackground'
+import Navbar from '@/components/Navbar'
 
 const quicksand = Quicksand({
   subsets: ['latin'],
@@ -120,6 +121,7 @@ export default function RootLayout({
         <SmoothScroll />
         <ScrollTracker />
         <OceanBackground />
+        <Navbar />
         {children}
       </body>
     </html>

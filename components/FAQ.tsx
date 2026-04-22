@@ -52,7 +52,7 @@ export default function FAQ() {
   const [aberto, setAberto] = useState<number | null>(0);
 
   return (
-    <section className="relative py-24 px-6 bg-azul-fundo">
+    <section id="faq" className="relative py-24 px-6 bg-azul-fundo scroll-mt-16">
       <div className="max-w-3xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

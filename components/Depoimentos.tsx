@@ -30,7 +30,7 @@ const depoimentos = [
 
 export default function Depoimentos() {
   return (
-    <section className="relative py-24 px-6 bg-gradient-to-b from-azul-profundo to-azul-meio">
+    <section id="depoimentos" className="relative py-24 px-6 bg-gradient-to-b from-azul-profundo to-azul-meio scroll-mt-16">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

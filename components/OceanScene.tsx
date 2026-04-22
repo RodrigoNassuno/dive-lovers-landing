@@ -7,7 +7,6 @@
 import React, { useMemo } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Bubbles3D from './scene/Bubbles3D'
-import OceanFish from './scene/OceanFish'
 
 class OceanErrorBoundary extends React.Component<
   { children: React.ReactNode },
@@ -45,7 +44,6 @@ export default function OceanScene() {
         flat
       >
         <Bubbles3D count={isMobile ? 18 : 36} color="#b0d8f8" />
-        <OceanFish  count={isMobile ?  8 : 16} />
       </Canvas>
     </OceanErrorBoundary>
   )

@@ -33,7 +33,7 @@ const diferenciais = [
 
 export default function Diferenciais() {
   return (
-    <section className="relative py-24 px-6 bg-azul-profundo">
+    <section id="diferenciais" className="relative py-24 px-6 bg-azul-profundo scroll-mt-16">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

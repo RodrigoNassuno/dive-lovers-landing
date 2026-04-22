@@ -29,7 +29,7 @@ const dias = [
 
 export default function ComoFunciona() {
   return (
-    <section className="relative py-24 px-6 bg-azul-meio">
+    <section id="como-funciona" className="relative py-24 px-6 bg-azul-meio scroll-mt-16">
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
