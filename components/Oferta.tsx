@@ -19,7 +19,7 @@ export default function Oferta() {
   return (
     <section
       id="oferta"
-      className="relative py-24 px-6 bg-azul-fundo overflow-hidden scroll-mt-16"
+      className="relative py-24 px-6 bg-azul-fundo overflow-hidden scroll-mt-20"
     >
       {/* Bolhas decorativas */}
       <div className="absolute inset-0 pointer-events-none">

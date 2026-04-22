@@ -42,24 +42,24 @@ export default function Navbar() {
           : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <a
           href="#"
           onClick={(e) => handleLink(e, 'body')}
-          className="font-titulo font-bold text-off-white text-xl tracking-wide"
+          className="font-titulo font-bold text-off-white text-3xl tracking-wide"
         >
           Dive <span className="text-tangerina">Lovers</span>
         </a>
 
         {/* Links — desktop */}
-        <ul className="hidden md:flex items-center gap-6">
+        <ul className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
                 onClick={(e) => handleLink(e, link.href)}
-                className="text-off-white/80 hover:text-off-white text-sm font-medium transition-colors"
+                className="text-off-white/80 hover:text-off-white text-base font-semibold transition-colors"
               >
                 {link.label}
               </a>
@@ -73,9 +73,9 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackWhatsAppClick('navbar')}
-          className="hidden md:inline-flex items-center gap-2 bg-tangerina hover:bg-tangerina/90 text-azul-profundo font-bold px-5 py-2 rounded-full text-sm transition-all hover:scale-105"
+          className="hidden md:inline-flex items-center gap-2 bg-tangerina hover:bg-tangerina/90 text-azul-profundo font-bold px-6 py-2.5 rounded-full text-base transition-all hover:scale-105"
         >
-          <MessageCircle size={16} />
+          <MessageCircle size={18} />
           Garantir vaga
         </a>
 
