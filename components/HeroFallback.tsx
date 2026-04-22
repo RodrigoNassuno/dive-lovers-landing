@@ -84,7 +84,7 @@ export default function HeroFallback() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-sm text-off-white/70"
         >
-          Certificação SSI internacional · Vagas limitadas · R$ 2.200
+          Certificação SSI internacional · Vagas limitadas · R$ 2.600
         </motion.p>
       </div>
 

@@ -28,7 +28,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://divelovers.com.br'
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
 
-  title: 'Curso de Mergulho em São Sebastião | Open Water SSI em 3 dias | Dive Lovers',
+  title: 'Curso de Mergulho em São Sebastião | Open Water SSI em 3 dias | DiveLovers',
   description:
     'Escola de mergulho em São Sebastião/SP. Curso Open Water SSI: 3 dias, 4 mergulhos no mar, certificação internacional válida no mundo todo. Piscina exclusiva 3m + hospedagem própria.',
 
@@ -40,24 +40,24 @@ export const metadata: Metadata = {
     'escola de mergulho litoral norte SP',
     'mergulho São Sebastião SP',
     'curso mergulho 3 dias',
-    'Dive Lovers',
+    'DiveLovers',
     'mergulho Pontal da Cruz',
   ],
 
-  authors: [{ name: 'Dive Lovers' }],
-  creator: 'Dive Lovers',
-  publisher: 'Dive Lovers',
+  authors: [{ name: 'DiveLovers' }],
+  creator: 'DiveLovers',
+  publisher: 'DiveLovers',
 
   alternates: {
     canonical: BASE_URL, // TODO: trocar pelo domínio real
   },
 
   openGraph: {
-    title: 'Em 3 dias, você é mergulhador certificado | Dive Lovers',
+    title: 'Em 3 dias, você é mergulhador certificado | DiveLovers',
     description:
       'Curso Open Water SSI em São Sebastião/SP. 3 dias, 4 mergulhos no mar, certificação internacional. Piscina exclusiva 3m, hospedagem própria, operação em Ilhabela.',
     url: BASE_URL, // TODO: trocar pelo domínio real
-    siteName: 'Dive Lovers',
+    siteName: 'DiveLovers',
     locale: 'pt_BR',
     type: 'website',
     images: [
@@ -65,14 +65,14 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Dive Lovers — Curso Open Water SSI em São Sebastião/SP',
+        alt: 'DiveLovers — Curso Open Water SSI em São Sebastião/SP',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Em 3 dias, você é mergulhador certificado | Dive Lovers',
+    title: 'Em 3 dias, você é mergulhador certificado | DiveLovers',
     description:
       'Curso Open Water SSI em São Sebastião/SP. 3 dias, 4 mergulhos no mar, certificação SSI internacional.',
     images: ['/og-image.png'],

@@ -9,7 +9,7 @@ const courseSchema = {
   url: BASE_URL,
   provider: {
     '@type': 'Organization',
-    name: 'Dive Lovers',
+    name: 'DiveLovers',
     url: BASE_URL,
     sameAs: [
       'https://www.instagram.com/dive.lovers/',
@@ -18,7 +18,7 @@ const courseSchema = {
   },
   offers: {
     '@type': 'Offer',
-    price: '2200',
+    price: '2600',
     priceCurrency: 'BRL',
     priceValidUntil: '2025-12-31',
     availability: 'https://schema.org/InStock',
@@ -31,7 +31,7 @@ const courseSchema = {
     courseWorkload: 'PT24H',
     location: {
       '@type': 'Place',
-      name: 'Dive Lovers — São Sebastião',
+      name: 'DiveLovers — São Sebastião',
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'Alameda Santana, 135',
@@ -48,7 +48,7 @@ const courseSchema = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'SportsActivityLocation',
-  name: 'Dive Lovers',
+  name: 'DiveLovers',
   description:
     'Centro de mergulho e resort em São Sebastião/SP. Escola de mergulho SSI, piscina exclusiva de 3m, hospedagem própria e mergulhos em Ilhabela.',
   url: BASE_URL,

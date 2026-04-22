@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-off-white/10 text-center text-off-white/50 text-xs">
-          © {new Date().getFullYear()} Dive Lovers. Todos os direitos reservados.
+          © {new Date().getFullYear()} DiveLovers. Todos os direitos reservados.
         </div>
       </div>
     </footer>

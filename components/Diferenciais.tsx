@@ -42,7 +42,7 @@ export default function Diferenciais() {
           transition={{ duration: 0.8 }}
           className="font-titulo text-4xl md:text-5xl font-bold text-off-white text-center mb-4"
         >
-          Por que a <span className="text-tangerina">Dive Lovers</span>
+          Por que a <span className="text-tangerina">DiveLovers</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

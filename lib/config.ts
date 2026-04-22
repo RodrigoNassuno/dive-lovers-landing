@@ -19,7 +19,7 @@ export const CONTATO = {
 };
 
 export const PRECOS = {
-  precoOriginal: "R$ 2.800",
-  precoVista: "R$ 2.200",
-  precoParcelado: "3x R$ 733",
+  precoOriginal: "R$ 3.200",
+  precoVista: "R$ 2.600",
+  precoParcelado: "3x R$ 933",
 };

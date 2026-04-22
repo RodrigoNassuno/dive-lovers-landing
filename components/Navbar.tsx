@@ -49,7 +49,7 @@ export default function Navbar() {
           onClick={(e) => handleLink(e, 'body')}
           className="font-titulo font-bold text-off-white text-3xl tracking-wide"
         >
-          Dive <span className="text-tangerina">Lovers</span>
+          Dive<span className="text-tangerina">Lovers</span>
         </a>
 
         {/* Links — desktop */}

@@ -24,7 +24,7 @@ const perguntas = [
   {
     pergunta: "Posso parcelar?",
     resposta:
-      "Sim. O curso sai por R$ 2.200 à vista ou em 3x R$ 733 no cartão. Falando no WhatsApp a gente alinha a forma de pagamento que melhor te atende.",
+      "Sim. O curso sai por R$ 2.600 à vista ou em 3x R$ 933 no cartão. Falando no WhatsApp a gente alinha a forma de pagamento que melhor te atende.",
   },
   {
     pergunta: "Tenho que comprar equipamento?",
