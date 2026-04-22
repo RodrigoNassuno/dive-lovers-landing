@@ -17,7 +17,7 @@ interface BubbleState {
 
 // Bolhas 3D subindo — InstancedMesh = 1 draw call para todas as bolhas.
 // Geometria: SphereGeometry(1, 8, 8) = 64 triângulos por instância.
-export default function Bubbles3D({ count }: { count: number }) {
+export default function Bubbles3D({ count, color = '#c8e8ff' }: { count: number; color?: string }) {
   const meshRef = useRef<THREE.InstancedMesh>(null!)
   const dummy = useRef(new THREE.Object3D())
 
@@ -64,7 +64,7 @@ export default function Bubbles3D({ count }: { count: number }) {
     <instancedMesh ref={meshRef} args={[undefined, undefined, count]}>
       <sphereGeometry args={[1, 8, 8]} />
       <meshBasicMaterial
-        color="#c8e8ff"
+        color={color}
         transparent
         opacity={0.18}
         depthWrite={false}
