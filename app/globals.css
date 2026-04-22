@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --azul-profundo: #102e48;
+  --tangerina: #f28a33;
+  --off-white: #f3f2ee;
+  --azul-pastel: #8eccff;
+  --azul-superficie: #8eccff;
+  --azul-meio: #2a5878;
+  --azul-fundo: #051a2e;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  /* scroll-behavior gerenciado pelo Lenis; 'auto' evita conflito com CSS nativo */
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--azul-profundo);
+  color: var(--off-white);
+  font-family: var(--font-afacad), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Fundo "oceano" que muda conforme scroll */
+.ocean-bg {
+  background: linear-gradient(
+    180deg,
+    var(--azul-pastel) 0%,
+    var(--azul-meio) 35%,
+    var(--azul-profundo) 70%,
+    var(--azul-fundo) 100%
+  );
+  background-attachment: fixed;
+}
+
+/* Bolha decorativa */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.1)
+  );
+  pointer-events: none;
+}
+
+/* Placeholder visual de imagem */
+.image-placeholder {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(242, 138, 51, 0.1),
+    rgba(242, 138, 51, 0.1) 10px,
+    rgba(242, 138, 51, 0.2) 10px,
+    rgba(242, 138, 51, 0.2) 20px
+  );
+  border: 2px dashed var(--tangerina);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
