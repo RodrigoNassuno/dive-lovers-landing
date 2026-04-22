@@ -19,6 +19,13 @@ const courseSchema = {
   offers: {
     '@type': 'Offer',
     price: '2600',
+    priceSpecification: {
+      '@type': 'UnitPriceSpecification',
+      price: '2800',
+      priceCurrency: 'BRL',
+      billingDuration: 3,
+      billingIncrement: 1,
+    },
     priceCurrency: 'BRL',
     priceValidUntil: '2025-12-31',
     availability: 'https://schema.org/InStock',

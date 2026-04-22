@@ -77,14 +77,23 @@ export default function Oferta() {
           </div>
 
           {/* Preço */}
-          <div className="text-center mb-10">
-            <p className="text-off-white/50 line-through text-lg">
-              De {PRECOS.precoOriginal}
-            </p>
-            <p className="font-titulo text-5xl md:text-7xl font-bold text-tangerina my-2">
-              {PRECOS.precoVista}
-            </p>
-            <p className="text-off-white/80">à vista · ou {PRECOS.precoParcelado} no cartão</p>
+          <div className="grid sm:grid-cols-2 gap-4 mb-10">
+            {/* À vista */}
+            <div className="flex flex-col items-center justify-center bg-tangerina rounded-2xl px-6 py-7">
+              <span className="text-azul-profundo text-sm font-bold uppercase tracking-widest mb-1">À vista</span>
+              <span className="font-titulo text-5xl md:text-6xl font-bold text-azul-profundo leading-none">
+                {PRECOS.precoVista}
+              </span>
+              <span className="text-azul-profundo/70 text-sm mt-2">pagamento único</span>
+            </div>
+            {/* Parcelado */}
+            <div className="flex flex-col items-center justify-center bg-azul-profundo/60 border border-off-white/20 rounded-2xl px-6 py-7">
+              <span className="text-off-white/70 text-sm font-bold uppercase tracking-widest mb-1">Parcelado</span>
+              <span className="font-titulo text-5xl md:text-6xl font-bold text-off-white leading-none">
+                {PRECOS.precoParcelado}
+              </span>
+              <span className="text-off-white/60 text-sm mt-2">total {PRECOS.precoParceladoTotal} no cartão</span>
+            </div>
           </div>
 
           {/* Lista de itens incluídos */}
